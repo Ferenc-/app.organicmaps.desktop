@@ -1,18 +1,29 @@
 diff --git a/packaging/app.organicmaps.desktop.metainfo.xml b/packaging/app.organicmaps.desktop.metainfo.xml
-index 57e7a3d390..2431cd127a 100644
+index 57e7a3d390..b8377cfb98 100644
 --- a/packaging/app.organicmaps.desktop.metainfo.xml
 +++ b/packaging/app.organicmaps.desktop.metainfo.xml
-@@ -115,6 +115,72 @@
+@@ -115,6 +115,83 @@
    </screenshots>
  
    <releases>
-+   <release version="2025.11.11-4" date="2025-09-25">
++   <release version="2025.11.26-5" date="2025-11-26">
++     <description>
++       <p>Highlights:</p>
++         <ul>
++           <li>Wikipedia articles in Turkish, Japanese, and Chinese, type ?wiki to see them on the map</li>
++           <li>OSM data as of November 23</li>
++           <li>Brighter roads in dark vehicle mode</li>
++           <li>Improved bicycle routing in Austria</li>
++        </ul>
++     </description>
++    </release>
++   <release version="2025.11.11-4" date="2025-11-11">
 +     <description>
 +       <p>Highlights:</p>
 +         <ul>
 +           <li>Highlight downloaded regions, nature reserves, national parks, protected areas, Aboriginal lands, danger areas, lakes on the World map</li>
 +           <li>Fresh OSM maps as of November 9</li>
-+           <li>Routing supports road closure times</li> 
++           <li>Routing supports road closure times</li>
 +        </ul>
 +     </description>
 +    </release>
@@ -30,7 +41,7 @@ index 57e7a3d390..2431cd127a 100644
 +           <li>Better EV charging station search with improved synonyms in all languages (Alexander Borsuk)</li>
 +           <li>Fixed emoji search with variant selectors (Alexander Borsuk)</li>
 +           <li>No more numeric prefix suggestions after finding exact address match (Viktor Govako)</li>
-+           <li>Importing/exporting GeoJSON from/to https://umap.openstreetmap.fr/ should now preserve all metadata (Shubh Kesharwani)</li>
++           <li>Importing/exporting GeoJSON from/to umap.openstreetmap.fr should now preserve all metadata (Shubh Kesharwani)</li>
 +           <li>Additional colors are supported for waymarked trails for the Hiking Routes map layer (Viktor Govako)</li>
 +        </ul>
 +     </description>
